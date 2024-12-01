@@ -6,7 +6,7 @@ sudo sed -i '/^#net.ipv4.ip_forward=1/s/^#//g' /etc/sysctl.conf
 sudo sysctl -p
 
 # Edit UFW before.rules file to add NAT rule
-sudo bash -c 'cat <<EOT >> /etc/ufw/before.rules
+sudo bash -c 'cat <<EOT >> /etc/ufw/before.rules 
 *nat
 :PREROUTING ACCEPT [0:0]
 :POSTROUTING ACCEPT [0:0]
