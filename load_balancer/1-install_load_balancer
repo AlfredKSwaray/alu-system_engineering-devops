@@ -40,7 +40,7 @@ echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
 sudo service haproxy restart
 
 # Check if HAProxy service is running
-sudo systemctl status haproxy
+sudo systemctl status haproxy 
 
 # Output to verify that the names web-01 and web-02 are used in the backend configuration
 echo "Checking HAProxy configuration..."
