@@ -14,4 +14,4 @@ new_config=\
 "
 sudo chown -R "$USER":"$USER" /etc/nginx/sites-available/default # change ownership
 echo "$new_config" > /etc/nginx/sites-available/default # overwrite the existing configuration
-sudo service nginx restart # restart the nginx
+sudo service nginx restart # restart the nginx 
