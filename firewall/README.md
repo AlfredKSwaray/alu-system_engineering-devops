@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-firewall Block all incoming traffic
+firewall Block all incoming traffic 
